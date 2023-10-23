@@ -2,7 +2,7 @@
 
 set -e
 
-DOTFILES_LOCATION=$(dirname -- $0)
+DOTFILES_LOCATION=$(pwd)
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
